@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation search bar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <div class="head">
+        <div class="search">
+            <div class="inner">
+
+            <div class="three">
+                <i class="fas fa-microscope"></i>
+            </div>
+
+            <div id="one">
+                <input type="text" name="text" id="box" placeholder="Search.."onclick="showmenu()">
+            </div>
+
+            <div class="two">
+                <label for="box"><button id="button"><i class="fas fa-search"></i> </button></label>
+            </div>
+
+            </div>
+        </div>
+
+
+        <div id="four" onclick="hidemenu()">
+            <div class="box">
+
+                <div class="menu">
+                    <div class="left"><h3>Search history</h3></div>
+                    <div id="right"><i class="fas fa-times"></i> </div>
+                </div>
+
+                <div class="history">
+
+                    <div class="image">
+                        <div class="img"><img src="https://i.ibb.co/gWym9LC/Captreure.png"></div>
+                        <div class="txt">
+                            <h5>New notification form Devid</h5>
+                            <p>20 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <div class="img"><img src="https://i.ibb.co/pJr5T4Y/Capture.png "></div>
+                        <div class="txt">
+                            <h5>New notification form Devid</h5>
+                            <p>20 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <div class="img"><img src=" https://i.ibb.co/jDnTBbR/Captr434ure.png"></div>
+                        <div class="txt">
+                            <h5>New notification form Devid</h5>
+                            <p>20 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <div class="img"><img src=" https://i.ibb.co/pJr5T4Y/Capture.png "></div>
+                        <div class="txt">
+                            <h5>New notification form Devid</h5>
+                            <p>20 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <div class="img"><img src="https://i.ibb.co/jDnTBbR/Captr434ure.png "></div>
+                        <div class="txt">
+                            <h5>New notification form Devid</h5>
+                            <p>20 minutes ago</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>>
+        </div>
+
+
+    </div>
+ 
+    <script>
+       let information = document.getElementById('four');
+
+       function showmenu() {
+           information.style.visibility = "visible";
+          
+       }
+
+       function hidemenu() {
+        information.style.visibility = "hidden";
+       }
+
+    </script>
+
+</body>
+</html>

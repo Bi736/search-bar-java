@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    flex-direction: column;
+}
+body{
+    background-color:rgba(36,146,215,255);
+}
+
+.head .search{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+  
+}
+
+.head .search .inner{
+    display: flex;
+    margin: 15px 10px;
+}
+.head .search .inner input{
+    height: 32px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+}
+
+.head .search .inner input::placeholder{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    opacity: .6;
+}
+.head .search .inner #one{
+    margin: 0px 20px;
+}
+
+.head .search .inner .two{
+margin-top: 5px;
+}
+
+.head .search .inner .three{
+margin-top: 5px;
+}
+
+button#button {
+border: none;
+font-size: 20px;
+background-color: transparent;
+color: gray;
+opacity: .8;
+}
+
+i.fas.fa-microscope {
+color:rgba(36,146,215,255);
+font-size: 20px;
+}
+
+.head{
+    position: relative;
+}
+
+
+.head #four .box{
+    height: 400px;
+    width: 430px;
+    border: 1px solid black;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.head #four .box .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    opacity: .6;
+}
+
+.head #four .box .history .image{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.head #four .box .history .image .img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+
+.head #four .box .history .image .txt{
+    margin: 15px 5px;
+}
+.head #four .box .history .image .txt h5{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+opacity: .8;
+}
+.head #four .box .history .image .txt p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 11px;
+opacity: .6;
+text-align: left;
+margin-top: 5px;
+}
+
+.head #four .box{
+    display: block;
+  width: 430px;
+  height: 300px;
+  overflow: hidden;
+  padding: 10px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+}
+
+
+
+
+
+/*----------------practise-----*/
+
+.head #four{
+
+    visibility: hidden;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.show{
+    
+    background-color: coral;
+    visibility: visible;
+   
+}
